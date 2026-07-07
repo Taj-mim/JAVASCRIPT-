@@ -7,3 +7,12 @@ body{
     background-color: red;
     color: white;
 }
+.intro{
+    font-size: 20px;
+    color: blue;
+}
+
+.newclass{
+    font-size: 30px;
+    color: green;
+}
