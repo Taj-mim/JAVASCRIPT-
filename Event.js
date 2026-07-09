@@ -7,4 +7,7 @@ ev.onclick=()=>{
 let ev2=document.querySelector(".btn2");
 ev2.ondblclick=(e)=>{
         alert("Button double clicked!");
+       console.log(e);
+        console.log(e.type);
+        console.log(e.target);
 };
