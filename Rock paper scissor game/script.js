@@ -1,5 +1,7 @@
-//let body=document.querySelector('body');
+let body=document.querySelector("body");
 
+  body.classList.add("bod");
+  
 let game=["rock","paper","scissors"];
 let btn=document.querySelectorAll(".choices");
 let btn1=document.getElementById("user-choice");
@@ -10,7 +12,7 @@ let computer_score=0;
 
 btn.forEach(button=>{
     button.addEventListener("click",()=>{
-
+      
         let randomChoice=game[Math.floor(Math.random()*game.length)];
 
         console.log(randomChoice);
