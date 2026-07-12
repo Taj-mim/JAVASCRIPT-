@@ -11,6 +11,14 @@ let computer =document.querySelector("#computer");
 let computer_score=0;
 
 btn.forEach(button=>{
+    let img =document.createElement("img");
+
+    img.src=`image/${button.value}.jpg`;
+    img.alt=button.value;
+
+    button.appendChild(img);
+
+
     button.addEventListener("click",()=>{
       
         let randomChoice=game[Math.floor(Math.random()*game.length)];
